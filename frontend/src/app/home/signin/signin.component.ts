@@ -33,7 +33,6 @@ export class SigninComponent implements OnInit {
       .authenticate(userName, password)
       .subscribe(() => {
         this.router.navigate(['user', userName]);
-        console.log('autenticado');
       }, (err) => {
         console.log(err);
         this.loginForm.reset();
