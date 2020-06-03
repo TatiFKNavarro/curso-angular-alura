@@ -4,7 +4,7 @@ import { Router } from "@angular/router";
 import { HttpEvent, HttpEventType, HttpResponse } from "@angular/common/http";
 import { finalize } from "rxjs/operators";
 import { PhotoService } from "./../photo/photo.service";
-import { AlertService } from "./../../shared/alert/alert.service";
+import { AlertService } from "./../../shared/components/alert/alert.service";
 import { UserService } from "src/app/core/user/user.service";
 
 @Component({
